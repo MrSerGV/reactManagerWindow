@@ -1,0 +1,175 @@
+.App{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 720px;
+}
+  
+.Main{
+  font-family: "Arial", sans-serif;
+ 
+  font-size: 14px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px
+}
+
+.ManagerInfo{ 
+  
+}
+
+.ManagerName{ 
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 15px;   
+}
+
+.ManagerPosition{
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.ManagerSayHello{  
+  background-color:#fffbc8;
+  margin-top: 10px;
+  margin-left: 75px;
+  border-radius: 5px;
+  border: 1px solid #cecabf;
+}
+
+.Foto-icon{
+	width: 120px;
+	height: 120px;
+	background-color: #eee;
+	border-radius: 50%;
+  margin-top: 15px;
+  margin-right: 10px;
+  float: left;
+}
+
+.ManagerService{
+  width: 100%;
+  margin-top: 15px;  
+}
+
+.Service{
+  
+}
+
+.Number{
+  
+}
+
+.ManagerFeedback{
+  
+}
+
+.NavFeedback{
+  display: inline-block;
+}
+
+.AllComment{ 
+  margin-left: 10px;
+}
+
+.AllComment:visited{
+  color:  #005da1;
+}
+
+.LastComment{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.Comment{
+  
+}
+
+.CommentName{
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.CommentDate{
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.CommentText{
+  
+  position: relative;
+  background-color:#f2fbff;
+  border: 1px solid #cfcfcf;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  
+}
+
+.CommentText:after,
+.CommentText:before {
+  content: ''; 
+  position: absolute;
+  left: 20px; top: -8px;
+  border: 4px solid transparent;
+  border-bottom: 4px solid #cfcfcf;
+  border-left: 4px solid #cfcfcf; 
+}
+
+.CommentText:after {
+  border-bottom: 4px solid #f2fbff;
+  top: -7px;
+  left: 10px;  
+}
+  
+.CommentText:after {
+  border-left: 4px solid #f2fbff;
+  top: -7px;
+  left: 20px;  
+}
+
+.AddComment{
+  box-sizing: border-box;
+  padding-top: 20px;  
+   
+}
+
+.Footer{   
+  background-color:#f2f2f2;
+  box-sizing: border-box;
+ 
+}
+
+.CommentInput{
+  width:93%;
+  height: 60px; 
+  border: 2px solid #ccc;
+  border-radius: 4px;  
+  resize: none;
+  margin-right: 7%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ButtonComment{
+  height: 40px;
+  width: 280px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fdd639;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  display: block;
+  margin: 20px auto;
+}
+
+
